@@ -67,7 +67,7 @@
 </head>
 <body>
   <h2>Expense Entry Form</h2>
-  <form id="expenseForm" action="https://script.google.com/macros/s/AKfycbzBia3Hz42dPXwl6ytnnWoVPjRZ_rosgehdOpNsX7fR-r-dThterKBVlVpIwo_u0apo/exec" method="post">
+  <form id="expenseForm" action="https://script.google.com/macros/s/AKfycbxWd8XQ6Ze92ruFZ0cStm-XFYDt3xyeo_HpiXqINcXacycbxTetWZ5c2tnbKvUXnGgo/exec" method="post">
     <label for="date">Date:</label>
     <input type="date" id="date" name="date"><br><br>
     
@@ -90,7 +90,13 @@
     <label for="note">Note:</label>
     <textarea id="note" name="note"></textarea><br><br>
     
+    <label>
+    <input type="checkbox" id="reimbursed" name="reimbursed">
+      Reimbursed parents or paid myself
+    </label><br><br>
+    
     <input type="submit" value="Submit">
+
   </form>
   <script>
     // Automatically set today's date in the date input field
